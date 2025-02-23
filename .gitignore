@@ -1,0 +1,9 @@
+build/**
+.vscode/**
+.vs/**
+out/**
+
+Chip/STM32F439ZITx/.cproject
+Chip/STM32F439ZITx/.mxproject
+Chip/STM32F439ZITx/.project
+CMakeSettings.json
