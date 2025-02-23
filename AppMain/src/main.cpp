@@ -1,7 +1,6 @@
 #include "main.h"
 
 void MainThr(__attribute__((unused)) void *arg);
-void TestThr(void *arg);
 
 int main(void)
 {
