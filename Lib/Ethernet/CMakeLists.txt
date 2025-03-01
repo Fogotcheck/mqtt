@@ -44,7 +44,7 @@ target_link_libraries(
 
 FetchContent_Declare(lwip_kernel
     GIT_REPOSITORY https://github.com/lwip-tcpip/lwip.git
-    GIT_TAG master
+    GIT_TAG STABLE-2_2_1_RELEASE
 )
 
 FetchContent_MakeAvailable(lwip_kernel)
