@@ -5,3 +5,5 @@
 #include "task.h"
 #include "event_groups.h"
 #include "cmsis_os2.h"
+
+#include "AppEthernet.h"

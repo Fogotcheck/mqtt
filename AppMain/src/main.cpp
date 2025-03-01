@@ -19,6 +19,10 @@ void MainThr(__attribute__((unused)) void *arg)
 		Error_Handler();
 	}
 
+	if (AppEthernetInit()) {
+		Error_Handler();
+	}
+
 	while (1) {
 		HAL_GPIO_TogglePin(LD1_GPIO_Port, LD1_Pin);
 		vTaskDelay(500);
